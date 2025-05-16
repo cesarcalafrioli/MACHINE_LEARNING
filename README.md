@@ -24,5 +24,27 @@ O ML possui um processo a ser seguido, conforme o fluxograma abaixo:
 ![image](https://github.com/user-attachments/assets/4593e77f-8d62-4dc9-9d93-011db00dfedf)
 
 Várias tarefas bem-sucedidas foram tratadas com algoritmos de aprendizagem, como reconhecimento e geração de padrões, reconhecimento de anomalias,
-e predição.
+e predição. E Possui duas grandes classes: Aprendizagem indutiva e aprendizagem transdutiva.
+
+A Aprendizagem Indutiva (ou Inferência Indutiva) busca aprender uma função geral a partir dos dados de treinamento que poss aser aplicada a qualquer novo exemplo, mesmo que ele ainda
+não tenha sido visto. visa categorizar todo o espaço de entrada e estima a função do modelo considerando a relação dos dados com todo o espaço de hipóteses e usa esse
+modelo para prever valores de saída para exemplos além do conjunto de treinamento. Por exemplo. um classificador treinado com scikit-learn, como uma SVM, MLP ou árvore
+de decisão, após o treinamento, ele pode prever a classe de qualquer nova entrada.
+
+A Aprendizagem Transdutiva (ou Inferência Transdutiva) visa rotular um conjunto-alvo de dados não previamente rotulados. Tenta prever os rótulos apenas para um conjunto específico de exemplos não
+rotulados que estão disponíveis no momento do treinamento. O modelo não tenta generalizar para novos dados fora desse conjunto. Por exemplo, o algoritmo Transductive SVM (TSVM), ou método semi-supervisionados onde se conhece o conjunto completo (rotulado + não rotulado).
+
+Enquanto a aprendizagem indutiva generaliza a partir de casos observados, enquanto aprendizagem transdutiva faz previsões específicas de casos observados. A tabela abaixo resume a diferença entre
+as duas inferências:
+
+| Característica                | Indutiva                | Transdutiva                                       |
+| ----------------------------- | ----------------------- | ------------------------------------------------- |
+| Generalização                 | Para qualquer novo dado | Apenas para os dados não rotulados já disponíveis |
+| Exemplo de algoritmo          | SVM, Random Forest, MLP | Transductive SVM, Label Propagation               |
+| Reutilizável para novos dados | Sim                     | Não necessariamente                               |
+| Contexto comum                | Supervisão total        | Semi-supervisão ou poucos rótulos                 |
+
+## Referências
+
+
 
