@@ -21,6 +21,7 @@ para inferir, decidir ou prever sem usar intervenção humana. Algumas disciplin
 - Neurociência;
 
 O ML possui um processo a ser seguido, conforme o fluxograma abaixo:
+
 ![image](https://github.com/user-attachments/assets/4593e77f-8d62-4dc9-9d93-011db00dfedf)
 
 Várias tarefas bem-sucedidas foram tratadas com algoritmos de aprendizagem, como reconhecimento e geração de padrões, reconhecimento de anomalias,
@@ -44,7 +45,23 @@ as duas inferências:
 | Reutilizável para novos dados | Sim                     | Não necessariamente                               |
 | Contexto comum                | Supervisão total        | Semi-supervisão ou poucos rótulos                 |
 
+## Raciocínio científico
+
+No contexto de ML, o raciocínio científico se refere à forma sistemática e fundamentada de pensar, testar e validar hipóteses, aplicado à construção de modelos preditivos ou descritivos a partir de
+dados. É o uso dos princípios do método científico no desenvolvimento de sistemas de aprendizagem de máquina.
+
+Exemplo de um Raciocínio Científico no ML:
+-Hipótese: "Alunos com baixa frequência e nota tendem a evadir mais."
+-Experimento: Você treina um modelo de classificação com esses atributos.
+-Validação: Mede acurácia, precisão, recall em dados de teste.
+-Análise: Descobre que a frequência é mais importante que a renda.
+-Refinamento: Inclui novos atributos ou muda o tipo de modelo.
+
+O Raciocínio científico é importante, pois sem ele o uso de ML vira uma tentativa e erro sem critério. Com isso, evitamos conclusões precipitadas ou incorretas; Garantimos reprodutibilidade dos
+resultados, e tomamos decisões baseadas em evidências (dados + estatísticas).
+
 ## Referências
+
 
 
 
