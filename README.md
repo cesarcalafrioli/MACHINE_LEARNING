@@ -51,14 +51,50 @@ No contexto de ML, o raciocínio científico se refere à forma sistemática e f
 dados. É o uso dos princípios do método científico no desenvolvimento de sistemas de aprendizagem de máquina.
 
 Exemplo de um Raciocínio Científico no ML:
--Hipótese: "Alunos com baixa frequência e nota tendem a evadir mais."
--Experimento: Você treina um modelo de classificação com esses atributos.
--Validação: Mede acurácia, precisão, recall em dados de teste.
--Análise: Descobre que a frequência é mais importante que a renda.
--Refinamento: Inclui novos atributos ou muda o tipo de modelo.
+- Hipótese: "Alunos com baixa frequência e nota tendem a evadir mais."
+- Experimento: Você treina um modelo de classificação com esses atributos.
+- Validação: Mede acurácia, precisão, recall em dados de teste.
+- Análise: Descobre que a frequência é mais importante que a renda.
+- Refinamento: Inclui novos atributos ou muda o tipo de modelo.
 
 O Raciocínio científico é importante, pois sem ele o uso de ML vira uma tentativa e erro sem critério. Com isso, evitamos conclusões precipitadas ou incorretas; Garantimos reprodutibilidade dos
 resultados, e tomamos decisões baseadas em evidências (dados + estatísticas).
+
+Exemplo prático e detalhado:
+
+1. Observação (Exploração dos dados)
+Você nota que a universidade tem dados históricos sobre:
+- Frequência em aula;
+- Nota média por disciplina;
+- Renda familiar;
+- Idade;
+- Tipo de escola de origem (pública ou privada);
+- Resultado: se o aluno evadiu ou não.
+
+2. Formulação da hipótese
+"A frequência baixa e nota baixa são fortes preditores de evasão."
+
+3. Construção de um modelo (teste da hipótese)
+Você usa os dados históricos para treinar um modelo de classificação (por exemplo, Logistic Regression ou Random Forest) para prever evasão (variável binária: evadiu ou não).
+
+4. Experimento
+Divide os dados em conjunto de treinamento e teste. Treina o modelo no conjunto de treino e avalia o desempenho no teste.
+
+5. Análise dos resultados
+- Acurácia: 85%
+- Recall para a classe “evadiu”: 60%
+- A análise de importância dos atributos mostra que:
+  - A frequência tem peso maior do que a nota;
+  - A renda tem impacto menor que o esperado.
+
+Você reformula parcialmente a hipótese:
+- "A frequência é o fator mais relevante na evasão, mais até do que as notas."
+
+6. Refinamento
+Você decide:
+- Adicionar o histórico de trancamentos de disciplina como novo atributo;
+- Testar outro modelo (por exemplo, SVM ou XGBoost);
+- Fazer tuning de hiperparâmetros.
 
 ## Referências
 
