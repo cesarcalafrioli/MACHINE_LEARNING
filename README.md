@@ -291,9 +291,13 @@ adequado a eliminação de 20% das unidades da camada de entrada e 50% das unida
 
 ![image](https://github.com/user-attachments/assets/9ebe9735-b84a-4d5f-9226-4a67142c9821)
 
+A tolerância a falhas nos pesos ou nodos consiste no no uso do ruído sináptico e na redução da magnitude do peso, sendo assim importante para uma Rede Neural, da mesma forma que o ruído na entrada melhora a capacidade de
+generalização. Quanto menor a magnitude do peso, maior a tolerância a falhas.
 
+A Esparsidade e estabilidade são duas propriedades conflitantes dos algoritmos de aprendizagem que colaboram na capacidade de generalização. A esparsidade aumenta a robustez da rede de 
+aprendizado, introduzindo diferentes tensões com diferentes padrões de entrada. Um dado algoritmo precisa equilibrar esparsidade e estabilidade.
 
-
+## **Tarefas de aprendizagem**
 
 ### Referências
 
@@ -312,5 +316,6 @@ adequado a eliminação de 20% das unidades da camada de entrada e 50% das unida
 - https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning
 - https://glossario.maiconramos.com/glossario/o-que-e-erro-de-generalizacao-em-aprendizado-de-maquina/
 - https://mlweb.loria.fr/book/en/estimationapproximationerrors.html
+- https://www.quora.com/Where-is-Sparsity-important-in-Deep-Learning
   
 
