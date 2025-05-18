@@ -182,11 +182,31 @@ Segue a figura a baixo:
 
 ![image](https://github.com/user-attachments/assets/e4f5973a-2353-488f-b63f-adc4636e0485)
 
+A aprendizagem Semi-supervisionada tem como objetivo a utilização de uma grande coleção de dados não-rotulados juntamente com alguns exemplos rotulados para
+melhorar a capacidade de generalização. Utiliza tanto amostras de dados rotuladas quanto não rotuladas no processo de treinamento. Aprender com hipótese de grupo
+ou com hipótese de variedade (_manifold_), em ambos os dados dentro de um grupo ou em uma variedade têm maior probabilidade de ter o mesmo rótulo. 
+Técnicas de aprendizagem semissupervisionadas modificam ou complementam um algoritmo supervisionado, conhecido como "aprendiz base", nesse contexto, para integrar
+informações de exemplos não rotulados. Os pontos de dados rotulados são utilizados para fundamentar as previsões do aprendiz base e adicionar estrutura (como
+quantas classes existem e as características básicas de cada uma) ao problema de aprendizado. Segue a figura abaixo:
 
+![image](https://github.com/user-attachments/assets/67f486dc-e036-4f0b-b216-dcf7a5a74f52)
+
+A aprendizagem Ativa (AA) visa escolher ativamente os exemplos mais informativos para rotulagem manual na aprendizagem, ou seja, estabelecer sinais de entrada para generalização
+ótima. Com base na expectativa condicional do erro de generalização, a Aprendizagem ativa pondera as amostras de treinamento de acordo com sua importância. Segue a
+figura abaixo:
+
+![image](https://github.com/user-attachments/assets/b6a296ae-1e73-4b90-81aa-a05f6f08a3cd)
+
+Outros tipos de aprendizado incluem :
+- Aprendizagem de variedade : Capacidade de um modelo de aprender a lidar com um conjunto diversificado de entradas e saídas, ou seja, com diferentes tipos de dados e
+tarefas, incluindo a capacidade de aprender com dados incompletos, ambíguos ou em diferentes idiomas, bem como de generalizar para novas situações não vistas durante o
+treinamento.
+- 
 
 ### Referências
 
 Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
+https://www.ibm.com/br-pt/think/topics/semi-supervised-learning
 
 
 
