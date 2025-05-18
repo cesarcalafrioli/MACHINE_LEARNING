@@ -98,13 +98,27 @@ Você decide:
 
 Como Raciocínio Científico, temos o Dedutivo e o Indutivo.
 
-O raciocínio indutivo é o ato de usar fatos específicos e tirar conclusões generalizadas deles..Consiste em obter uma 
+O raciocínio dedutivo é o ato de usar fatos específicos e tirar conclusões generalizadas deles. Consiste em obter uma 
 conclusão de forma redutiva por meio da aplicação de regras gerais válidas para a totalidade de um domínio fechado,
 estreitando seguidamente o intervalo em consideração até que restem apenas as conclusões. Também é conhecido como raciocínio
 _top-down_. A primeira forma de raciocínio dedutivo é a lei do desapego, também conhecido como eliminação de implicações.
 Consiste em uma regra de inferência em que, se P implica Q (P -> Q) e P for verdadeiro (V), então Q deve ser verdadeiro (Q).
-Para chegar a uma conclusão, esse tipo de raciocínio parte do específico para o geral. Assim, de uma premissa particular há uma
-generalização até chegar no universal. Note que ele pode criar conhecimentos novos.
+Para chegar numa conclusão, esse tipo de método argumentativo parte do geral para o específico. Ou seja, a partir de premissas
+universais ele chega no particular. Diferente do método indutivo, esse não cria conceitos novos.
+
+Exemplo:
+- Todos os animais são mortais.
+- Peixe é um animal.
+- Logo, o peixe é mortal.
+
+Já o Raciocínio indutivo consiste em obter uma conclusão através da generalização ou extrapolação de casos específicos para regras
+gerais, portanto, há incerteza epistemológica (dúvida ou à falta de certeza sobre o conhecimento, frequentemente devido à falta de
+evidências ou à natureza limitada das informações disponíveis). É uma classe especial de técnicas supervisionadas de aprendizagem,
+onde dado um conjunto de pares estímulo-resposta {xi, f (xi)}, determina-se uma hipótese h(xi) tal que h(xi) ≈ f (xi), ∀i.
+Nesse tipo de raciocínio, deve-se formar um coneito que suporte a maioria dos vários exemplos positivos, mas nenhum negativo. Demanda
+também uma série de instâncias de treinamento para formar um conceito de aprendizagem indutiva.
+Em resumo, para chegar a uma conclusão, esse tipo de raciocínio parte do específico para o geral. Assim, de uma premissa particular
+há uma generalização até chegar no universal. Note que ele pode criar conhecimentos novos.
 
 Exemplo:
 - Todo gato é mortal.
@@ -113,7 +127,6 @@ Exemplo:
 - Todo peixe é mortal.
 - Logo, todo animal é mortal.
 
-Já o Raciocínio DEdutivo consiste em ob
 
 
 
