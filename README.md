@@ -96,8 +96,30 @@ Você decide:
 - Testar outro modelo (por exemplo, SVM ou XGBoost);
 - Fazer tuning de hiperparâmetros.
 
+Como Raciocínio Científico, temos o Dedutivo e o Indutivo.
+
+O raciocínio indutivo é o ato de usar fatos específicos e tirar conclusões generalizadas deles..Consiste em obter uma 
+conclusão de forma redutiva por meio da aplicação de regras gerais válidas para a totalidade de um domínio fechado,
+estreitando seguidamente o intervalo em consideração até que restem apenas as conclusões. Também é conhecido como raciocínio
+_top-down_. A primeira forma de raciocínio dedutivo é a lei do desapego, também conhecido como eliminação de implicações.
+Consiste em uma regra de inferência em que, se P implica Q (P -> Q) e P for verdadeiro (V), então Q deve ser verdadeiro (Q).
+Para chegar a uma conclusão, esse tipo de raciocínio parte do específico para o geral. Assim, de uma premissa particular há uma
+generalização até chegar no universal. Note que ele pode criar conhecimentos novos.
+
+Exemplo:
+- Todo gato é mortal.
+- Todo cão é mortal.
+- Todo pássaro é mortal.
+- Todo peixe é mortal.
+- Logo, todo animal é mortal.
+
+Já o Raciocínio DEdutivo consiste em ob
+
+
+
 ## Referências
 
+Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
 
 
 
