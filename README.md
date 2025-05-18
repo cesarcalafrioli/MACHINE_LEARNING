@@ -252,18 +252,23 @@ da mesma distribuição do conjunto de treinamento.
 
 Matematicamente, a generalização é a interpolação e extrapolação de dados de entrada.
 
-Um dos prinicipais desafios no campo do ML é o erro de generalização. Erro de Generalização ocorre quando um modelo treinado não consegue realizar previsões precisas em dados não
-vistos anteriormente e é tipicamente composto por Erro de aproximação (EA) e Erro de estimação (EE). Ocorre quando um modelo de aprendizado de máquina se torna ou muito complexo
-ou muito simples para o conjunto de dados em questão.
+Um dos prinicipais desafios no campo do ML é o **erro de generalização**. Ocorre quando um modelo de aprendizado de máquina se torna ou muito complexo
+ou muito simples para o conjunto de dados em questão. Dessa forma um modelo treinado não consegue realizar previsões precisas em dados não vistos anteriormente e é
+tipicamente composto por Erro de aproximação (EA) e Erro de estimação (EE). 
 
-O Erro de aproximação ocorre devido ao número finito de parâmetros do esquema de aproximação usado e a ruído desconhecido nos dados de treinamento.
+Quando o modelo é muito complexo, ele pode se ajustar demais aos dados de treinamento, capturando padrões e ruídos irrelevantes, resultando em mau desemepnho em dados não vistos.
+Quando inverso, modelo simples demais pode se tornar incapaz de capturar a complexidade dos dados, resultando em desempenho insatisfatório.
 
+O Erro de aproximação ocorre devido ao número finito de parâmetros do esquema de aproximação usado e a ruído desconhecido nos dados de treinamento. É um erro implícito pela escolha
+ da classe de função e é definido como a diferença de risco obtida entre o melhor modelo dentro da classe de função e o modelo ótimo.
 
-O erro de estimação ocorre devido a um número finito de dados disponíveis.
+O erro de estimação ocorre devido a um número finito de dados disponíveis, sendo assim um erro IMPLÍCITO, e reflete apenas parcialmente a distribuição real dos dados.
 
 O erro de gerneralização pode ser visto na representação gráfica abaixo:
 
 ![image](https://github.com/user-attachments/assets/73bc3613-6213-4077-b6eb-c41b07496074)
+
+
 
 
 ### Referências
@@ -282,5 +287,6 @@ O erro de gerneralização pode ser visto na representação gráfica abaixo:
 - https://medium.com/@lg0702/overfitting-e-underfitting-6cba339aebfb
 - https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning
 - https://glossario.maiconramos.com/glossario/o-que-e-erro-de-generalizacao-em-aprendizado-de-maquina/
+- https://mlweb.loria.fr/book/en/estimationapproximationerrors.html
   
 
