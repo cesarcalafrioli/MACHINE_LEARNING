@@ -273,10 +273,16 @@ a Generalização por regularização, e o Critério de Parada. Também para evi
 treinamento treina o modelo, o de validação é utilizado para ajustar os hiperparâmetros do modelo, e o conjunto de teste é utilizado para avaliar o desempenho final do modelo em dados
 não vistos.
 
-O critério de parada visa evitar o sobretreinamento interrompendo o treinamento antes que o Mínimo Erro Absoluto seja atingido.
+O critério de parada visa evitar o sobretreinamento interrompendo o treinamento antes que o Mínimo Erro Absoluto seja atingido. A rede, assim, não aprenderá o ruído de alta frequência
+se o treinamento for interrompido em ponto apropriado. O erro de treinamento tende a diminuir até seu mínimo enquanto o erro de generalização deve atingir seu mínimo antes e depois passa
+a crescer. É definido _da mesma forma que o erro de aprendiagem, só que para um conjunto de dados de validação. Segue a figura abaixo:
+
+![image](https://github.com/user-attachments/assets/aad1963a-e5fe-495a-afed-10c3509f3e7e)
 
 A Generalização por regularização consiste em adicionar uma penalidade aos parâmetros do modelo para evitar o ajuste excessivo aos dados de treinamento, e pode ser feita de várias formas
-, como a adição de termos de penalidade na função de perda do modelo.
+, como a adição de termos de penalidade na função de perda do modelo. Emprega um termo de restrição (Ec), que penaliza a complexidade, que é a causa de generalização baixa, de uma solução,
+tornando a função de custo: –ET= EA + λEC. 
+
 
 
 ### Referências
