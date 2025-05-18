@@ -174,10 +174,14 @@ personalizadas e recomendações de produtos relacionados aos interesses especí
 A aprendizagem por reforço especifica como um agente aprende a selecionar ações para maximizar uma recompensa cumulativa. É um caso especial de Aprendizagem
 supervisionada que utiliza sinais de retorno indicativos da qualidade da saída. Tal sinal de reforço consiste em um retorno avaliando o sucesso ou fracasso
 de uma dada saída, ou seja, há recompensa para o modelo em caso de bom resultado de saída e penalização para mau resultado.
+Esse tipo de aprendizado é o que mais se diferencia dos outros que falamos. No aprendizado por reforço, um agente é treinado para tomar sequências de decisões,
+recebendo recompensas ou penalidades em troca. O objetivo é que o agente aprenda a tomar as melhores ações para maximizar as recompensas ao longo do tempo.
+Esse tipo de aprendizado é amplamente aplicado na robótica e em jogos.
 
 Segue a figura a baixo:
 
 ![image](https://github.com/user-attachments/assets/e4f5973a-2353-488f-b63f-adc4636e0485)
+
 
 
 ### Referências
