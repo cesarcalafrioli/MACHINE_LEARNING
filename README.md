@@ -252,7 +252,7 @@ da mesma distribuição do conjunto de treinamento.
 
 Matematicamente, a generalização é a interpolação e extrapolação de dados de entrada.
 
-Um dos prinicipais desafios no campo do ML é o **erro de generalização**. Ocorre quando um modelo de aprendizado de máquina se torna ou muito complexo
+Um dos prinicipais desafios no campo do ML é o **erro de generalização**, que ocorre quando um modelo de aprendizado de máquina se torna ou muito complexo
 ou muito simples para o conjunto de dados em questão. Dessa forma um modelo treinado não consegue realizar previsões precisas em dados não vistos anteriormente e é
 tipicamente composto por Erro de aproximação (EA) e Erro de estimação (EE). 
 
@@ -268,7 +268,15 @@ O erro de gerneralização pode ser visto na representação gráfica abaixo:
 
 ![image](https://github.com/user-attachments/assets/73bc3613-6213-4077-b6eb-c41b07496074)
 
+A fim de melhorar a capacidade de generalização e evitar seus erros, várias técnicas são propostas, como a Esparsidade e estabilidade, a tolerância a falhas, o Descarte (dropout),
+a Generalização por regularização, e o Critério de Parada. Também para evitar o erro de generalização, é adotado o uso de conjuntos de treinamento, validação e teste. O conjunto de
+treinamento treina o modelo, o de validação é utilizado para ajustar os hiperparâmetros do modelo, e o conjunto de teste é utilizado para avaliar o desempenho final do modelo em dados
+não vistos.
 
+O critério de parada visa evitar o sobretreinamento interrompendo o treinamento antes que o Mínimo Erro Absoluto seja atingido.
+
+A Generalização por regularização consiste em adicionar uma penalidade aos parâmetros do modelo para evitar o ajuste excessivo aos dados de treinamento, e pode ser feita de várias formas
+, como a adição de termos de penalidade na função de perda do modelo.
 
 
 ### Referências
