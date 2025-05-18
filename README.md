@@ -96,7 +96,7 @@ Você decide:
 - Testar outro modelo (por exemplo, SVM ou XGBoost);
 - Fazer tuning de hiperparâmetros.
 
-Como Raciocínio Científico, temos o Dedutivo e o Indutivo.
+Como Raciocínio Científico, temos o Dedutivo, Indutivo, e Abdutivo.
 
 O raciocínio dedutivo é o ato de usar fatos específicos e tirar conclusões generalizadas deles. Consiste em obter uma 
 conclusão de forma redutiva por meio da aplicação de regras gerais válidas para a totalidade de um domínio fechado,
@@ -127,10 +127,24 @@ Exemplo:
 - Todo peixe é mortal.
 - Logo, todo animal é mortal.
 
+Exemplo2:
+O Parlamento Europeu aprovou leis problemáticas antes, por isso não podemos acreditar que outras cortes vão admitir as novas leis.
+Parlamento europeu --> uma corte apenas (ESPECÍFICO)
+Outras cortes --> GERAL (generalização)
+
+![image](https://github.com/user-attachments/assets/5757f77f-e687-4479-8128-9c6ec09a2c66)
+
+E no Raciocínio abdutivo, parte-se de uma observação e depois procura-se a explicação mais simples e provável adotando provisoriamente uma
+hipótese. Todas as consequências possíveis da hipótese podem ser verificadas experimentalmente. As premissas desse raciocínio NÃO GARANTEM
+a conclusão, visto que a conclusão pode ser visto como uma inferência para a melhor explicação.
+Abdutivo é o contrário de dedutivo e é um processo de pensamento que consiste em encontrar a explicação mais provável para um conjunto de
+observações ou fatos. É também conhecido como inferência para a melhor explicação. 
+
+## **Tipos de Aprendizagem**
 
 
 
-## Referências
+### Referências
 
 Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
 
