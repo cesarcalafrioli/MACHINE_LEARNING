@@ -281,7 +281,10 @@ a crescer. É definido _da mesma forma que o erro de aprendiagem, só que para u
 
 A Generalização por regularização consiste em adicionar uma penalidade aos parâmetros do modelo para evitar o ajuste excessivo aos dados de treinamento, e pode ser feita de várias formas
 , como a adição de termos de penalidade na função de perda do modelo. Emprega um termo de restrição (Ec), que penaliza a complexidade, que é a causa de generalização baixa, de uma solução,
-tornando a função de custo: –ET= EA + λEC. 
+tornando a função de custo: –ET= EA + λEC. Segue a figura abaixo:
+
+![image](https://github.com/user-attachments/assets/20c0c0b6-0aea-4a0a-8368-34c9e99f2255)
+
 
 
 
