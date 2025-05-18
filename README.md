@@ -142,6 +142,14 @@ observações ou fatos. É também conhecido como inferência para a melhor expl
 
 ## **Tipos de Aprendizagem**
 
+Os tipos mais comuns de aprendizagem ssão a supervisionada (AS), não-supervisionada (ANs), e por reforço (AR), Semi-Supervisionada, e Ativa.
+
+A aprendizagem supervisionada consiste em rotular todos os dados. Os parâmetros do modelo de aprendizagem são ajuistados por comparação direta
+da saída do modelo com a saída desejada. 
+
+
+
+
 
 
 ### Referências
