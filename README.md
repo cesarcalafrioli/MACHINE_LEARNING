@@ -5,7 +5,8 @@ Repositório de algoritmos de aprendizagem de máquina supervisionada e não sup
 
 Machine Learning (ML), ou aprendizagem de máquina, é o campo de estudo que dá aos computadores a capacidade de aprender sem serem 
 explicitamente programados com o conhecimento. Tem como objetivo a construpção de sistemas para computadores que possam se adaptar e
-aprender com sua experiência.
+aprender com sua experiência. A aprendisagem de máquina se baseia em algorítmos e modelos estatísticos para ensinar as máquinas a realizar
+tarefas específicas sem a necessidade de programação explícita.
 
 Um programa de computador aprende com a experiência E em relação a alguma classe de tarefas T e medidas de desempenho P se o seu desempenho
 em tarefas T, quando medido por P, melhora com a experiência E ( Mitchell, 1997 ).
@@ -251,6 +252,18 @@ da mesma distribuição do conjunto de treinamento.
 
 Matematicamente, a generalização é a interpolação e extrapolação de dados de entrada.
 
+Um dos prinicipais desafios no campo do ML é o erro de generalização. Erro de Generalização ocorre quando um modelo treinado não consegue realizar previsões precisas em dados não
+vistos anteriormente e é tipicamente composto por Erro de aproximação (EA) e Erro de estimação (EE). Ocorre quando um modelo de aprendizado de máquina se torna ou muito complexo
+ou muito simples para o conjunto de dados em questão.
+
+O Erro de aproximação ocorre devido ao número finito de parâmetros do esquema de aproximação usado e a ruído desconhecido nos dados de treinamento.
+
+
+O erro de estimação ocorre devido a um número finito de dados disponíveis.
+
+O erro de gerneralização pode ser visto na representação gráfica abaixo:
+
+![image](https://github.com/user-attachments/assets/73bc3613-6213-4077-b6eb-c41b07496074)
 
 
 ### Referências
