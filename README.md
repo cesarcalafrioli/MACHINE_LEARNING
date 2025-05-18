@@ -203,10 +203,15 @@ tarefas, incluindo a capacidade de aprender com dados incompletos, ambíguos ou 
 treinamento.
 - TransferÊncia de aprendizagem : Reutiliza um modelo treinado para uma tarefa específica e o adapta para uma tarefa relacionada. Em vez de treinar um novo modelo desde o
 início, a transferência de aprendizagem aproveita o conhecimento prévio do modelo para acelerar o treinamento e melhorar o desempenho em tarefas novas.
-- Aprendizagem multirótulo : Associa-se uma instância de dados a multiplas classes ao mesmo tempo, em ve de atribuir uma única instância a apenas uma classe. Essa aprendizagem
+- Aprendizagem multirótulo (MR): Associa-se uma instância de dados a multiplas classes ao mesmo tempo, em ve de atribuir uma única instância a apenas uma classe. Essa aprendizagem
 permite a associação de várias etiquetas ou rótulos a uma única instância. Como exemplo, temos classificação de filmes, que podem ser classificados como "ação" e "comédia
 simultaneamente.
--  
+- Aprendizagem de múltiplas instâncias (MIL) : Aprendizado "fracamente supervisionado" em que um grupo de instância (Como imagens, por exemplo) é rotulado sem a rotulagem de instâncias indivi
+duais. É conhecido como fracamente supervisionado pelo fato de nem todas as instâncias individuais serem realmente rotuladas. Nessa aprendizagem, um grupo de instâncias relacionadas
+para um rótulo é chamado de "bag".
+- Classificações paramétricas, semiparamétricas e não-paramétricas : Referem-se a diferentes abordagens para modelar relações estatísticas e analisar dados. A paramétrica assume uma distribuição
+- específica (como a normal), enquanto a não-paramétrica não faz tal suposição, sendo mais flexível em situações onde a forma de distribuição é desconhecida ou não formal. E a Semiparamétrica
+encontra-se entre as classificações paramétricas e não-paramétricas, permitindo alguma flexibilidade na forma de distribuição, mas ainda com alguns pressupostos.
 
 ### Referências
 
@@ -214,7 +219,10 @@ Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
 https://www.ibm.com/br-pt/think/topics/semi-supervised-learning
 https://aws.amazon.com/pt/what-is/transfer-learning/
 https://www.uema.br/2025/02/professor-da-uema-desenvolve-metodo-inovador-para-imputacao-de-dados-em-classificacao-multi-rotulo-2/
-
-
+https://medium.com/@minhkhangle.phd/multiple-instance-learning-mil-and-its-utility-in-whole-slide-image-wsi-analyses-3acb67f5434b
+https://pt.wikipedia.org/wiki/Estat%C3%ADstica_n%C3%A3o_param%C3%A9trica
+https://www-colorado-edu.translate.goog/lab/lisa/services/short-courses/parametric-versus-seminonparametric-regression-models?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
+https://byjus-com.translate.goog/maths/difference-between-parametric-and-nonparametric/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
+https://www.blog.trainindata.com/machine-learning-with-imbalanced-data/
 
 
