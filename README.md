@@ -201,12 +201,20 @@ Outros tipos de aprendizado incluem :
 - Aprendizagem de variedade : Capacidade de um modelo de aprender a lidar com um conjunto diversificado de entradas e saídas, ou seja, com diferentes tipos de dados e
 tarefas, incluindo a capacidade de aprender com dados incompletos, ambíguos ou em diferentes idiomas, bem como de generalizar para novas situações não vistas durante o
 treinamento.
-- 
+- TransferÊncia de aprendizagem : Reutiliza um modelo treinado para uma tarefa específica e o adapta para uma tarefa relacionada. Em vez de treinar um novo modelo desde o
+início, a transferência de aprendizagem aproveita o conhecimento prévio do modelo para acelerar o treinamento e melhorar o desempenho em tarefas novas.
+- Aprendizagem multirótulo : Associa-se uma instância de dados a multiplas classes ao mesmo tempo, em ve de atribuir uma única instância a apenas uma classe. Essa aprendizagem
+permite a associação de várias etiquetas ou rótulos a uma única instância. Como exemplo, temos classificação de filmes, que podem ser classificados como "ação" e "comédia
+simultaneamente.
+-  
 
 ### Referências
 
 Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
 https://www.ibm.com/br-pt/think/topics/semi-supervised-learning
+https://aws.amazon.com/pt/what-is/transfer-learning/
+https://www.uema.br/2025/02/professor-da-uema-desenvolve-metodo-inovador-para-imputacao-de-dados-em-classificacao-multi-rotulo-2/
+
 
 
 
