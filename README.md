@@ -153,6 +153,9 @@ comprimento do texto e presença de links, o algoritmo aprende a rotular o conte
 Ele identifica padrões associados a cada categoria, permitindo que, posteriormente, o modelo classifique novos e-mails com base no treinamento
 recebido. Dessa forma, é possível filtrar e organizar a caixa de entrada de maneira mais eficiente.
 
+A aprendizagem supervisionada aprende a função de distribuição de probabilidade (pdf) de p(y|x). É largamente usada em classificação, aproximação,
+controle, modelagem e identificação, processamento de sinais, e otimização.
+
 Segue a figura abaixo:
 
 ![image](https://github.com/user-attachments/assets/93b0c912-3521-4b77-9a41-5387827aeef0)
@@ -167,7 +170,12 @@ tendem a comprar produtos de moda, outros grupos que preferem produtos eletrôni
 
 Essa análise de clustering permite entender melhor os perfis de compra dos clientes e identificar segmentos de clientes com interesses e preferências
 semelhantes. Com base nisso, estratégias de marketing podem ser desenvolvidas de forma direcionada para cada grupo, como o envio de ofertas
-personalizadas e recomendações de produtos relacionados aos interesses específicos de cada segmento. Segue a figura abaixo:
+personalizadas e recomendações de produtos relacionados aos interesses específicos de cada segmento. 
+
+A aprendizagem nãos-supervisionada aprende a função de distribuição de probabilidade (pdf) de um conjunto de treinamento p(x). É comumente empregada para
+agrupamento, quantização vetorial, extração de características, codificação de sinal e análise de dados.
+
+Segue a figura abaixo:
 
 ![image](https://github.com/user-attachments/assets/ff1b0f8b-6876-4161-925d-6dc67252dd0f)
 
@@ -176,7 +184,7 @@ supervisionada que utiliza sinais de retorno indicativos da qualidade da saída.
 de uma dada saída, ou seja, há recompensa para o modelo em caso de bom resultado de saída e penalização para mau resultado.
 Esse tipo de aprendizado é o que mais se diferencia dos outros que falamos. No aprendizado por reforço, um agente é treinado para tomar sequências de decisões,
 recebendo recompensas ou penalidades em troca. O objetivo é que o agente aprenda a tomar as melhores ações para maximizar as recompensas ao longo do tempo.
-Esse tipo de aprendizado é amplamente aplicado na robótica e em jogos.
+Esse tipo de aprendizado é amplamente aplicado na robótica e em jogos. É geralmente utilizado em controle e inteligência artificial.
 
 Segue a figura a baixo:
 
@@ -212,6 +220,10 @@ para um rótulo é chamado de "bag".
 - Classificações paramétricas, semiparamétricas e não-paramétricas : Referem-se a diferentes abordagens para modelar relações estatísticas e analisar dados. A paramétrica assume uma distribuição
 - específica (como a normal), enquanto a não-paramétrica não faz tal suposição, sendo mais flexível em situações onde a forma de distribuição é desconhecida ou não formal. E a Semiparamétrica
 encontra-se entre as classificações paramétricas e não-paramétricas, permitindo alguma flexibilidade na forma de distribuição, mas ainda com alguns pressupostos.
+
+![image](https://github.com/user-attachments/assets/36d1b1cc-540a-475c-91b9-3606a525f94a)
+
+
 
 ### Referências
 
