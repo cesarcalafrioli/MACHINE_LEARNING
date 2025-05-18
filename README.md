@@ -223,18 +223,51 @@ encontra-se entre as classificações paramétricas e não-paramétricas, permit
 
 ![image](https://github.com/user-attachments/assets/36d1b1cc-540a-475c-91b9-3606a525f94a)
 
+## **Aprendizagem**
+
+A aprendizagem consiste na reconstrução de uma hipersuperfície baseada em exemplos. No contexto da matemática, é um ajuste NÃO-LINEAR de curva e se trata de um problema inverso
+ill-posed, ou seja, os dados de entradas podem ser ruidososos ou imprecisos, bem como insuficientes para construir o mapeamento de maneira exclusiva.
+
+![image](https://github.com/user-attachments/assets/927bc4e1-619f-41be-87b2-b5bd073f8849)
+
+É necessário que o conjunto de treinamento seja suficientemente grande e diversificado par representar bem o problema, pois um algoritmo de aprendizagem é sobretreinado com muitos exemplos,
+parâmetros ou épocas, sendo acurado, dessa forma, para dados de treinamento, mas impreciso para dados de teste, caracterizando assim o Overfitting (Sobreajuste).
+
+O underfitting ocorre quando o modelo é simples demais e não consegue capturar as relações complexas nos dados, enquanto o overfitting ocorre quando o modelo se adapta demais aos dados
+de treino, incluindo o ruído, e não generaliza bem para novos dados.
+
+![image](https://github.com/user-attachments/assets/87e9931d-9642-4303-9342-abb1489257e0)
+
+
+## Generalização
+
+A generalização é a capacidade de um modelo aprender corretamente com os dados de treino e, em seguida, aplicar esses conhecimentos para prever com precisão dados novos e
+não vistos durante o treinamento. Consiste em estimar o valor na hipersuperfície de uma entrada não-treinada. É essencial que um modelo não apenas memorize os dados de treino,
+mas também que aprenda os padrões subjacentes para que possa ser aplicado em situações reais. A generalização é uma técnica amplamente reconhecida no mundo do aprendizado de
+máquina e da inteligência artificial, que capacita cientistas de dados a construir modelos que transcendem as limitações dos dados de treinamento e se destacam em cenários
+do mundo real. Em resumo, tendo em vista que, no mundo real, os dados são confusos, imprevisíveis e em constante evolução, a generalização é a capacidade de um modelo treinado
+de fazer previsões precisas sobre dados novos e inéditos a fim de compreender os padr~´oes e relacionamento em seus dados de treinamento e aplicá-los a exemplos inéditos dentro
+da mesma distribuição do conjunto de treinamento.
+
+Matematicamente, a generalização é a interpolação e extrapolação de dados de entrada.
+
 
 
 ### Referências
 
-Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
-https://www.ibm.com/br-pt/think/topics/semi-supervised-learning
-https://aws.amazon.com/pt/what-is/transfer-learning/
-https://www.uema.br/2025/02/professor-da-uema-desenvolve-metodo-inovador-para-imputacao-de-dados-em-classificacao-multi-rotulo-2/
-https://medium.com/@minhkhangle.phd/multiple-instance-learning-mil-and-its-utility-in-whole-slide-image-wsi-analyses-3acb67f5434b
-https://pt.wikipedia.org/wiki/Estat%C3%ADstica_n%C3%A3o_param%C3%A9trica
-https://www-colorado-edu.translate.goog/lab/lisa/services/short-courses/parametric-versus-seminonparametric-regression-models?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
-https://byjus-com.translate.goog/maths/difference-between-parametric-and-nonparametric/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
-https://www.blog.trainindata.com/machine-learning-with-imbalanced-data/
-
+- Disciplina UFPE IN0997 - Redes Neurais - Prof. Aluízio Araujo
+- https://www.ibm.com/br-pt/think/topics/semi-supervised-learning
+- https://aws.amazon.com/pt/what-is/transfer-learning/
+- https://www.uema.br/2025/02/professor-da-uema-desenvolve-metodo-inovador-para-imputacao-de-dados-em-classificacao-multi-rotulo-2/
+- https://medium.com/@minhkhangle.phd/multiple-instance-learning-mil-and-its-utility-in-whole-slide-image-wsi-analyses-3acb67f5434b
+- https://pt.wikipedia.org/wiki/Estat%C3%ADstica_n%C3%A3o_param%C3%A9trica
+- https://www-colorado-edu.translate.goog/lab/lisa/services/short-courses/parametric-versus-seminonparametric-regression-models?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
+- https://byjus-com.translate.goog/maths/difference-between-parametric-and-nonparametric/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
+- https://www.blog.trainindata.com/machine-learning-with-imbalanced-data/
+- https://www-rudderstack-com.translate.goog/learn/machine-learning/generalization-in-machine-learning/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge&_x_tr_hist=true
+- https://qohash-com.translate.goog/generalization-in-machine-learning/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge
+- https://medium.com/@lg0702/overfitting-e-underfitting-6cba339aebfb
+- https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning
+- https://glossario.maiconramos.com/glossario/o-que-e-erro-de-generalizacao-em-aprendizado-de-maquina/
+  
 
