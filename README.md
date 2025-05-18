@@ -146,14 +146,28 @@ Os tipos mais comuns de aprendizagem ssão a supervisionada (AS), não-supervisi
 
 A aprendizagem supervisionada (AS) consiste em rotular todos os dados. Os parâmetros do modelo de aprendizagem são ajuistados por comparação direta
 da saída do modelo com a saída desejada. Essa aprendizagem é orientada pela medida de erro, que consiste na diferença entre a saída obtida e 
-aquela desejada para as amostras de treinamento.
+aquela desejada para as amostras de treinamento. Nesse tipo de aprendizado, os computadores são treinados usando exemplos de entrada e saída
+correspondente. Por exemplo, imagine que estamos construindo um modelo para classificar e-mails entre e-mails de spam e e-mails legítimos. Para
+isso, utilizamos diversos e-mails que contêm a resposta à pergunta "É spam?". Através das características dos e-mails, como palavras-chave,
+comprimento do texto e presença de links, o algoritmo aprende a rotular o conteúdo como spam. Esse modelo é conhecido como modelo de classificação.
+Ele identifica padrões associados a cada categoria, permitindo que, posteriormente, o modelo classifique novos e-mails com base no treinamento
+recebido. Dessa forma, é possível filtrar e organizar a caixa de entrada de maneira mais eficiente.
+
+Segue a figura abaixo:
 
 ![image](https://github.com/user-attachments/assets/93b0c912-3521-4b77-9a41-5387827aeef0)
 
 A aprendizagem não-supervisionada (ANs) não usa saídas desejadas e se basea apenas nas correlações dos dados de entrada. Logo, determina
 compartilhamento de características significativas sem a participação de um professor. A Aprendizagem Não-supervisionada comumente é do tipo
 hebbiana, ou seja, usa relações locais envolvendo dois neurônios e uma sinapse, e a mudança de peso sináptico é proporcional à correlação entre
-os sinais pré e pós-sinápticos.
+os sinais pré e pós-sinápticos. Nesse tipo de aprendizado, os computadores exploram dados não rotulados para descobrir padrões e estruturas ocultas.
+Uma técnica comum utilizada nesse tipo de aprendizado é o clustering, que é o processo de agrupar e categorizar grupos de dados.
+Em um contexto de e-commerce, por exemplo, podemos identificar padrões e grupos de compras semelhantes. Você pode descobrir grupos de clientes que
+tendem a comprar produtos de moda, outros grupos que preferem produtos eletrônicos, e assim por diante.
+
+Essa análise de clustering permite entender melhor os perfis de compra dos clientes e identificar segmentos de clientes com interesses e preferências
+semelhantes. Com base nisso, estratégias de marketing podem ser desenvolvidas de forma direcionada para cada grupo, como o envio de ofertas
+personalizadas e recomendações de produtos relacionados aos interesses específicos de cada segmento. Segue a figura abaixo:
 
 ![image](https://github.com/user-attachments/assets/ff1b0f8b-6876-4161-925d-6dc67252dd0f)
 
