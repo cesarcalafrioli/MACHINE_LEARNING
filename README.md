@@ -286,8 +286,13 @@ tornando a função de custo: –ET= EA + λEC. Segue a figura abaixo:
 ![image](https://github.com/user-attachments/assets/20c0c0b6-0aea-4a0a-8368-34c9e99f2255)
 
 O Descarte (_dropout_) descarta aleatoriamente os nodos e suas conexões no treinamento de uma RN para interromper co-adaptações frágeis, como na rede Multi-Layer Perceptron com algorítmo
-de retropropagação (MLP-BP), que não generalizam para dados de
-testes.
+de retropropagação (MLP-BP), que não generalizam para dados de testes. No caso mais simples, cada nodo é mantido com probabilidade fixa _p_, independente das outras unidades. É considerado
+adequado a eliminação de 20% das unidades da camada de entrada e 50% das unidades da camada escondidas. Segue a figura abaixo:
+
+![image](https://github.com/user-attachments/assets/9ebe9735-b84a-4d5f-9226-4a67142c9821)
+
+
+
 
 
 ### Referências
