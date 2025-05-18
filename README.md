@@ -171,7 +171,13 @@ personalizadas e recomendações de produtos relacionados aos interesses especí
 
 ![image](https://github.com/user-attachments/assets/ff1b0f8b-6876-4161-925d-6dc67252dd0f)
 
+A aprendizagem por reforço especifica como um agente aprende a selecionar ações para maximizar uma recompensa cumulativa. É um caso especial de Aprendizagem
+supervisionada que utiliza sinais de retorno indicativos da qualidade da saída. Tal sinal de reforço consiste em um retorno avaliando o sucesso ou fracasso
+de uma dada saída, ou seja, há recompensa para o modelo em caso de bom resultado de saída e penalização para mau resultado.
 
+Segue a figura a baixo:
+
+![image](https://github.com/user-attachments/assets/e4f5973a-2353-488f-b63f-adc4636e0485)
 
 
 ### Referências
