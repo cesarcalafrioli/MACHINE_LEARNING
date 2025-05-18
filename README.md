@@ -297,7 +297,22 @@ generalização. Quanto menor a magnitude do peso, maior a tolerância a falhas.
 A Esparsidade e estabilidade são duas propriedades conflitantes dos algoritmos de aprendizagem que colaboram na capacidade de generalização. A esparsidade aumenta a robustez da rede de 
 aprendizado, introduzindo diferentes tensões com diferentes padrões de entrada. Um dado algoritmo precisa equilibrar esparsidade e estabilidade.
 
-## **Tarefas de aprendizagem**
+## **O uso da aprendizagem nas tarefas**
+
+Entre os usos, incluem:
+
+- Associação de padrões : Conchecimento por associação por meio da memória distribuíd ainspirada no cérebro humano. Entre a associação, temos a autoassociação e a heteroassociação.
+- Reconhecimento de padrões : Um padrão ou sinal de entrada é incluído em uma entre possíveis categorias. Temos, como reconhecimento, a Classificação (Supervisionada) e o agrupamento
+(Não-supervisionada).
+- Determinação de funções : Produz uma rede neural que define uma função que replique um dado mapeamento entrada-saída. Temos, como determinação, a interpolação (Mapeamento que interpola
+pontos aos existentes) e a aproximação (Mapeamento que aproxima a relação).
+- Controle de processos : Rede neural para realizar identificação ou controle de um dado processo ou sistema. Como controle, temos a identificação de sistemas (Modela a operação de um
+sistema) e o Sistema inverso (Modela o controlador do sistema). Segue a figura abaixo:
+
+![image](https://github.com/user-attachments/assets/8ed6fdda-7dab-4766-b725-a82f2e0fa263)
+
+- Filtragem de sinais : Separação de componentes de um sinal, eliminando partes indesejáveis de um sinal. Entre as filtragens, temos a suavisação (Retira variações bruscas de um sinal),
+a Predição (Antevê o comportamento futuro de um dado sinal). Como exemplo, é possível remover ruídos de um áudio com as redes neurais profundas.
 
 ### Referências
 
