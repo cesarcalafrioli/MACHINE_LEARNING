@@ -144,12 +144,18 @@ observações ou fatos. É também conhecido como inferência para a melhor expl
 
 Os tipos mais comuns de aprendizagem ssão a supervisionada (AS), não-supervisionada (ANs), e por reforço (AR), Semi-Supervisionada, e Ativa.
 
-A aprendizagem supervisionada consiste em rotular todos os dados. Os parâmetros do modelo de aprendizagem são ajuistados por comparação direta
+A aprendizagem supervisionada (AS) consiste em rotular todos os dados. Os parâmetros do modelo de aprendizagem são ajuistados por comparação direta
 da saída do modelo com a saída desejada. Essa aprendizagem é orientada pela medida de erro, que consiste na diferença entre a saída obtida e 
 aquela desejada para as amostras de treinamento.
 
 ![image](https://github.com/user-attachments/assets/93b0c912-3521-4b77-9a41-5387827aeef0)
 
+A aprendizagem não-supervisionada (ANs) não usa saídas desejadas e se basea apenas nas correlações dos dados de entrada. Logo, determina
+compartilhamento de características significativas sem a participação de um professor. A Aprendizagem Não-supervisionada comumente é do tipo
+hebbiana, ou seja, usa relações locais envolvendo dois neurônios e uma sinapse, e a mudança de peso sináptico é proporcional à correlação entre
+os sinais pré e pós-sinápticos.
+
+![image](https://github.com/user-attachments/assets/ff1b0f8b-6876-4161-925d-6dc67252dd0f)
 
 
 
